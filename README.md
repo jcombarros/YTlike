@@ -14,19 +14,6 @@ Please write a single HTML page which has the following functionality.
 - page is split to a 'top toolbar' (where 'options' are displayed) and 'content' (rest of the page)
 - the 'top toolbar' is at least 50px high and is split into 4 equal parts called 'option placeholders' (boxes - side by side - whole boxes clickable)
 
-
- +-------+-------+-------+-------+
- |  All  | Opt 1 | Opt 2 | Opt 3 |
- +=======+===----+-------+-------|
- |                               |
- |                               |
- |      Currently selected:      |
- |      Opt 1, Opt 3             |
- |                               |
- |                               |
- +-------------------------------+
-
-
 - the 4 'option placeholders' for options on top of a page behave as follows:
 -- 'All' option is selected by default
 -- 'All' option is exclusive to other options but other options are not exclusive to themselves and behave like 'toggle options' (if one is selected it can be unselected and vice versa)
