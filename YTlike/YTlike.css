@@ -1,0 +1,82 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+.toolbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+ul.toolbar_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+li.toolbar_item {
+    float: left;
+    width: calc(25% - 2px);
+    border-right-style: solid;
+    border-top-style: solid;
+  	border-color: white;
+  	border-width: 2px;
+}
+li.toolbar_item:hover {
+    float: left;
+    width: calc(25% - 2px);
+    border-right-style: solid;
+    border-top-style: solid;
+  	border-color: white;
+  	background-color: darkgrey;
+  	border-width: 2px;
+}
+li.toolbar_item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+.ytbar{
+	height: 25px;
+	width: 0%;
+	padding-top:40px;
+	overflow:hidden;
+	background-color: red;
+}
+
+/*
+.ytbar_loading{
+	width:100%;
+	-webkit-transition: width 3s ease-in;
+    -moz-transition: width 3s ease-in;
+    -o-transition: width 3s ease-in;
+    transition: width 3s ease-in;
+}
+*/
+.content{
+	height: calc(100% - 70px);
+	text-align: center;
+	background-color: white;
+}
+.inner_content{
+	height: 50%;
+	width: 100%;
+}
+.info{
+	font-size: 150%;
+}
+.selected{
+	font-weight:bold;
+	color: black;
+	background-color: green;
+}
+.invisible{
+	visibility: hidden;
+}
